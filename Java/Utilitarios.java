@@ -17,8 +17,8 @@ public class Utilitarios {
         return novaTransacao;
     }
 
-    public static float saldoTotal(){
-        float total = 0;
+    public static double saldoTotal(){
+        double total = 0;
 
         for(Transacao t : LISTA_TRANSACAO){
             total += t.valor;
